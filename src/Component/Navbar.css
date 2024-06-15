@@ -1,0 +1,79 @@
+
+
+.navbar{
+    /* background-color: #16213E; */
+    /* background-color: #19376D; */
+    padding-left: 20px;
+    background-image: linear-gradient(to right, #734dad, #2735a0); /* Example gradient */
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;  
+    
+}
+.navbar-brand{
+    color:#fff; 
+
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: "Bebas Neue", sans-serif;
+    font-size:xx-large;
+    pointer-events:painted;
+   background: linear-gradient(45deg, rgb(239, 125, 58), rgb(243, 89, 169));
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-weight: bold; 
+       
+}
+.navbar-brand:hoover{
+ color:#fff !important;
+}
+
+
+.navbar-scrolled {
+    background-color: #333; /* Change background color when scrolled */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+.navbar-nav{
+    /* margin-left:auto ; */
+    font-size: large;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+
+}
+.breadcrumb-container {
+    margin-top: 10px;
+    justify-content: end;
+    align-items: end;
+  }
+  
+  .breadcrumb-item a {
+    color: white; /* Make breadcrumb links white to match the navbar */
+  }
+  
+  .breadcrumb-item a:hover {
+    color: #d4d4d4; /* Slightly lighter color on hover */
+  }
+  
+  .breadcrumb-item.active a {
+    color: #a1a1a1; /* Different color for active breadcrumb item */
+  }
+  
+@media (max-width: 700px) {
+    .navbar-nav {
+        display: none;
+        visibility: hidden;
+      /* flex-direction: column;
+      align-items: flex-start;
+    } */
+    }
+    .breadcrumb-container {
+        margin-top: 10px;
+        width: 100%;
+        text-align: right;
+      }
+}
+.navbar-nav .nav-link{
+ color: #fff;
+}

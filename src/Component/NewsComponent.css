@@ -1,0 +1,54 @@
+
+.container-fluid{
+    /* background-color: #E7F6F2; */
+    /* background-color: #19376D; */
+       margin-top: -55px;  
+      background-image: linear-gradient(to right, #916ce9, #71c486); /* Example gradient */
+}
+.card{
+    /* background-color: #222831; */
+    /* background-color: #31363F; */
+    background-color: #0B2447;
+    color: #EEEEEE;
+    transition: background-color 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-img-top{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.card:hover {
+     /* background-color: #222831;  */
+  background-color: #2D3250;
+  border-width: 3px;
+  border-image: linear-gradient(45deg, rgb(166, 204, 71), rgb(48, 223, 208)) 1;
+   /* The gradient and border scaling */  /* border-color: #EEEEEE; */
+     /* Change background color on hover */
+  }
+.btn{
+  border-radius:0%;
+  background-color: #576CBC;
+  border-radius: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  width: 100%;
+  ;
+}
+.card-title:hover{
+color:#fff;
+}
+.card-text{
+    color:antiquewhite;
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+}
+.card-footer{
+    margin-bottom: 20px;
+}
+.btn:hover{
+  background-color: maroon;
+  border-color: maroon;
+}
